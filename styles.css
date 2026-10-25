@@ -110,7 +110,8 @@ body.demo .header,body.demo .hero-copy h1,body.demo .hero-copy p,body.demo .hero
 @media(max-width:800px){
 body{overflow-x:hidden}
 .header{height:40px;padding:0 24px;position:relative;z-index:10}
-.brand-lockup{width:auto;height:38px}
+.brand-lockup{width:132px;height:38px;flex:0 0 132px;align-self:center}
+.brand-lockup img{width:132px;height:38px;object-fit:contain}
 .header-cta{display:none}
 .mobile-menu{width:40px;height:40px;padding:0;display:grid;place-content:center;gap:5px;background:var(--accent-300);border-radius:50%;transition:background-color 180ms ease}
 .mobile-menu:hover,.mobile-menu:focus-visible{background:var(--accent-hover)}
@@ -201,7 +202,7 @@ footer div:not(.footer-about) p{margin:15px 0 0}
 }
 @media(max-width:430px){
 .header{height:40px;padding:0 20px}
-.brand-lockup{width:auto;height:38px}
+.brand-lockup{width:132px;height:38px;flex:0 0 132px;align-self:center}
 .mobile-menu{width:40px;height:40px}
 .header nav{top:48px;left:20px;right:20px}
 .hero{height:975px;margin:0 20px}
