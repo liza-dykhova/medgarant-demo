@@ -1,0 +1,10 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="30.5" height="26.75" viewBox="0 0 30.5 26.75" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Slot">
+<path id="Vector" d="M26 7C25.7894 5.63421 25.2726 4.05638 24.2248 3.03925C22.1853 1.34216 19.563 2.19071 17.5234 3.03925C15.4839 3.8878 13.7357 3.8878 11.6961 3.03925C9.65655 2.19071 7.32563 1.34216 4.9947 2.7564C2.66378 4.73634 2.66378 8.69622 3.53787 12.0904C4.41197 15.7674 5.57743 20.5758 7.32563 23.97C8.19972 25.6671 9.36519 26.5157 10.5306 25.6671C11.9875 24.8186 11.6961 22.2729 12.2788 19.7273C12.5702 17.4645 13.1529 15.7674 14.3184 15.7674C15.4839 15.7674 16.0666 17.4645 16.358 19.7273C16.9407 22.2729 16.6493 24.8186 18.1062 25.6671C19.2716 26.5157 20.4371 25.6671 21.3112 23.97C22.5389 21.5864 22.8173 20.5 23.761 18" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+<mask id="stroke0_0_12" maskUnits="userSpaceOnUse" x="18" y="6" width="13" height="13" fill="black">
+<rect fill="white" x="18" y="6" width="13" height="13"/>
+<path d="M23 8H26V11H29V14H26V17H23V14H20V11H23V8Z"/>
+</mask>
+<path id="Vector_2" d="M23 8H26V11H29V14H26V17H23V14H20V11H23V8Z" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke="white" mask="url(#stroke0_0_12)"/>
+</g>
+</svg>
