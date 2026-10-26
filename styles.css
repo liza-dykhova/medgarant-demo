@@ -76,7 +76,7 @@ h2{font-size:40px;line-height:1;font-weight:500;letter-spacing:0;margin:0}
 .service p{font-size:16px;line-height:22px;color:var(--text-300);max-width:360px;margin:0;transition:color .5s}
 .service a{position:absolute;bottom:25px;font-size:16px;font-weight:500}
 .center{text-align:center;margin-top:32px}
-.cta-section{padding:135px 48px}
+.cta-section{padding:135px 48px 35px}
 .cta-banner{height:480px;background:linear-gradient(165deg,var(--accent-300),var(--deep) 78%);border-radius:20px;position:relative;overflow:hidden;color:var(--white)}
 .cta-text{position:absolute;left:70px;top:110px;width:46%;z-index:2}
 .cta-text h2{font-size:40px}
