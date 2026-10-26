@@ -88,7 +88,7 @@ h2{font-size:40px;line-height:1;font-weight:500;letter-spacing:0;margin:0}
 .testimonials{padding:120px 48px 150px;overflow:hidden}
 .testimonials-top{display:flex;justify-content:space-between;align-items:end;margin-bottom:54px}
 .testimonials-top .eyebrow{justify-content:flex-start}
-.testimonials-top .pill{margin:0}
+.testimonials-top .pill{display:none}
 .reviews-viewport{overflow:hidden}
 .reviews-track{display:flex;gap:20px;transition:transform .7s cubic-bezier(.22,1,.36,1);width:max-content}
 .review{width:350px;min-height:280px;background:var(--surface-gray);border-radius:17px;padding:34px}
@@ -159,10 +159,14 @@ h2{font-size:36px;line-height:42px}
 .marquee{gap:18px}
 .marquee img{width:275px;height:360px;border-radius:20px}
 .services{padding:104px 24px 96px}
-.services .section-heading h2{font-size:36px;line-height:42px}
+.services .section-heading{width:calc(100% + 48px);margin-left:-24px}
+.services .section-heading h2{font-size:34px;line-height:40px;white-space:nowrap}
 .service-grid{grid-template-columns:1fr;margin-top:70px}
 .service{height:auto;min-height:0;padding:0 24px 44px;margin:0;border-right:0!important;border-bottom:1px solid #c4c4c4!important;opacity:0;transform:translateY(28px);transition:opacity 520ms ease,transform 520ms cubic-bezier(.22,1,.36,1),color .4s}
 .service.is-visible{opacity:1;transform:translateY(0)}
+.service:before,.service:hover:before,.service.featured.force:before{opacity:0!important}
+.service:hover,.service.featured.force{color:var(--ink)}
+.service:hover p,.service.featured.force p{color:var(--text-300)}
 .service + .service{padding-top:48px}
 .service:last-child{border-bottom:0!important;padding-bottom:20px}
 .tooth-icon{width:56px;height:56px;margin-bottom:32px}
@@ -230,14 +234,19 @@ h2{font-size:32px;line-height:38px}
 .photo-strip{padding-left:20px;margin-top:54px}
 .marquee img{width:240px;height:320px}
 .services{padding:85px 20px 78px}
-.services .section-heading h2{font-size:32px;line-height:38px}
+.services .section-heading{width:calc(100% + 40px);margin-left:-20px}
+.services .section-heading h2{font-size:32px;line-height:38px;white-space:nowrap}
 .service-grid{margin-top:54px}
 .service{padding-left:24px;padding-right:24px;padding-bottom:38px}
+.service:before,.service:hover:before,.service.featured.force:before{opacity:0!important}
+.service:hover,.service.featured.force{color:var(--ink)}
+.service:hover p,.service.featured.force p{color:var(--text-300)}
 .service + .service{padding-top:42px}
 .tooth-icon{width:52px;height:52px;margin-bottom:27px}
 .service h3{font-size:24px;line-height:29px;margin-bottom:18px}
 .service p{font-size:17px;line-height:24px;margin-bottom:27px}
 .service a{font-size:17px;line-height:22px}
+.services .section-heading h2{font-size:30px;line-height:36px}
 .cta-section{padding:94px 20px}
 .cta-banner{height:735px}
 .cta-text{top:52px;left:24px;right:24px}
